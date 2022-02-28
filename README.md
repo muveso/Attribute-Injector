@@ -44,6 +44,48 @@ DoSomething(); //call the method anywhere...
 Entering method 'DoSomething'
 body of DoSomething method
 ```
+## More Complex Scenerios
+
+#### Complex Attribute :
+
+```C#
+[Injection]
+public class ComplexLog : Attribute
+{
+    [Rise(When.OnEntry)]
+    public void Begin([Argument(Method.Name)] string name)
+    {
+        Debug.Log($"Entering method {name}");
+    }
+
+    [Rise(When.OnExit)]
+    public void End([Argument(Method.Name)] string name, [Argument(Method.ReturnValue)] int value)
+    {
+        //you can reach return value of method.
+        Debug.Log($"Exiting method {name} with return value: {value.ToString()}");
+    }
+}
+```
+
+#### Usage :
+
+```C#
+[ComplexLog]
+private int DoSomething() //notice return type
+{
+    var x = Random.Range(1, 1000);
+    Debug.Log("DoSomething body");
+    return x;
+}
+```
+
+#### Result :
+
+```bash
+Entering method 'DoSomething'
+DoSomething body
+Exiting method 'DoSomething' with return value: 126
+```
 
 ## Requirements
 
