@@ -78,6 +78,12 @@ Alternatively, you can add the code directly to the project:
 1. Clone the repo or download the latest release.
 2. Add the **AttributeInjector** folder to your Unity project or import the .unitypackage
 
+## Installation
+
+On the Project Window, right-click and create Attribute Injector -> Settings.
+
+This scriptable object holds all assemblies as cache for performance optimization. If you remove it, all injection process will be canceled.
+
 
 Contact : sefa@muveso.com
 
