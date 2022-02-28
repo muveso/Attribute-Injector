@@ -1,0 +1,16 @@
+{
+    "name": "com.muveso.attribute-injector",
+    "version": "1.0.0",
+    "displayName": "Attribute Injector",
+    "description": "Attribute Injector is an attribute-based framework for creating and injecting inline codes into your projects.",
+    "unity": "2019.2",
+    "dependencies": {
+        "com.unity.nuget.mono-cecil": "1.10.2"
+    },
+    "keywords": ["tools","extensions","AOT", "Unity","addon", "DI","dependency injection","attribute injector"],
+    "author": {
+        "name": "Sefa Enes TAS",
+        "email": "sefa@muveso.com",
+        "url": "https://muveso.com"
+    }
+}
