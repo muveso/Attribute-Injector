@@ -1,7 +1,7 @@
 # Attribute Injector For Unity
 
 [![Unity 2017+](https://img.shields.io/badge/unity-2017%2B-blue.svg)](https://unity3d.com/get-unity/download)
-[![openupm](https://img.shields.io/npm/v/com.dbrizov.naughtyattributes?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.dbrizov.naughtyattributes/)
+[![openupm](https://img.shields.io/npm/v/com.muveso.attribute-injector?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.muveso.attribute-injector/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/muveso/Attribute-Injector/blob/main/LICENSE)
 
 **Attribute Injector** is an attribute-based framework for creating and injecting inline codes into your projects.
