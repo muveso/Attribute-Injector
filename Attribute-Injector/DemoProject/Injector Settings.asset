@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6622529284b14fc6824066c64dc59b9c, type: 3}
+  m_Name: Injector Settings
+  m_EditorClassIdentifier: 
+  mComponents:
+    mSubObjects:
+    - {fileID: 1351017678404779420}
+    mOwner: {fileID: 11400000}
+  mWeavedAssemblies: []
+--- !u!114 &1351017678404779420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa80b04b79764530bf0185914e60c99b, type: 3}
+  m_Name: InjectionAttributeModifier
+  m_EditorClassIdentifier: 
+  mRequiredScriptingSymbols:
+    value: 
+    m_IsActive: 1
