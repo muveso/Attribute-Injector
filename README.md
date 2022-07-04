@@ -2,7 +2,6 @@
 
 [![Unity 2017+](https://img.shields.io/badge/unity-2017%2B-blue.svg)](https://unity3d.com/get-unity/download)
 [![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://github.com/muveso/Attribute-Injector/blob/main/LICENSE)
-<br/><br/><a href="https://www.buymeacoffee.com/muveso" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/yellow_img.png" alt="Buy Me A Coffee"></a>
 <br/>
 <br/>
 **Attribute Injector** is an attribute-based framework for creating and injecting inline codes into your projects.
